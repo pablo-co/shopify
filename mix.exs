@@ -51,8 +51,8 @@ defmodule Shopify.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.10.0"},
-      {:poison, "~> 3.0"},
+      {:httpoison, ">= 0.11.0"},
+      {:poison, ">= 1.5.0"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
